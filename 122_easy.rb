@@ -8,8 +8,8 @@ def number_divider(numero)
   if numero >= 0 && numero <= 9
     puts numero
     return
+  end
 
-    root = numero % 9
-
-    puts root
+  root = numero % 9
+  puts root
 end
